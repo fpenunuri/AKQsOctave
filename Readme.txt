@@ -9,6 +9,8 @@ F. Peñuñuri, A dual number formulation to efficiently compute higher order
 directional derivatives, Journal of Computational Science 76 (2024) 102217.
 doi:10.1016/j.jocs.2024.102217.
 
+To make the implementation Octave-compatible, we have included the 'num2cell'
+function.
 
 The folders "02AuxiliarDualFun", "03KinematicQuantities", "04MechFunctions"
 and "05AuxiliarExamplesF" contain the implementation of our study about
