@@ -36,10 +36,8 @@ absX, HTM, rot_mat, Scross, sp, sph4r_vars, vtangent, vuni
 d) folder "05AuxiliarExamplesF":
 basisCD, BCoupler, BOutputL, Coupler3p, OutputL3p, points123
 
-
-Although care has been taken on writing the Matlab code, 
-there is not guaranteed to be free of error. The use of the dual 
-classes it is entirely at the user's risk and the author disclaims all 
-liability.
+Although care has been taken in writing the code, there is no guarantee
+that it is free of errors. The use of the dual classes is entirely at
+the user's risk, and the author disclaims all liability.
 
 F. Peñuñuri
