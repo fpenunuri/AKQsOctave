@@ -1,8 +1,5 @@
 Dual number implementation until the fourth order.
 
-The prod function needs the dimension along which the product is computed.
-For instance use prod(A(:),1) instead of prod(A(:))
-
 Do not use subsref or A(:,...) inside the '@dualx' folders (x=1,...,4).
 For this case use the takepart function. Also, use the setpart function
 instead of subsasgn if necessary.
