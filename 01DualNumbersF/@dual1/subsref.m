@@ -12,3 +12,14 @@ function obj = subsref(obj,S)
     end
 end
 
+% function obj = subsref(obj, S)
+%     if(isa(obj,'dual1') && strcmp(S.type,'()'))
+%         indx = S.subs;
+%         obj = takepart(obj,indx{:});
+%     elseif(isa(obj,'dual1') && strcmp(S.type,'{}'))
+%         error('{} not supported')
+%     else
+%         obj = builtin('subsref',obj,S);
+%     end
+% 
+% end
